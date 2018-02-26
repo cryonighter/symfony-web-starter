@@ -1,11 +1,11 @@
 {
     "name": "cryonighter/symfony-web-starter",
     "description": "A skeleton to start a new Symfony web project",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "type": "project",
     "license": "proprietary",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Andrey Reshetchenko",
@@ -67,6 +67,9 @@
         "symfony/symfony": "*"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1"
+        },
         "symfony": {
             "id": "01C793YY6N0PD6H32GTS1F8JQV",
             "allow-contrib": false
